@@ -87,4 +87,37 @@
     display: block;
     padding-top: 0;
   }
+
+  .team-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+
+  .footer {
+    background-color: var(--navy-blue-dark-color);
+    padding: 100px 0;
+  }
+
+  .footer-container {
+    align-items: baseline;
+  }
+
+  .footer-logo-wrapper {
+  display: inline-block;
+  margin-right: 120px;
+}
+  }
+  
 }

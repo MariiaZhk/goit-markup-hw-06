@@ -64,4 +64,21 @@
   .feature-item {
     width: calc((100% - 24px) / 2);
   }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+  }
 }
