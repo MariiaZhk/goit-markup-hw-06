@@ -6,94 +6,6 @@
   color: var(--navy-blue-dark-color);
 }
 
-/*  */
-
-/* HEADER */
-
-/* HERO */
-
-.hero-title {
-  max-width: 496px;
-  margin: 0 auto 48px;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  color: var(--white-background-color);
-  text-align: center;
-  letter-spacing: 0.02em;
-}
-
-.hero-btn {
-  display: block;
-  padding: 16px 32px;
-  margin: 0 auto;
-  border-radius: 4px;
-  min-width: 169px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--iris-primary-brand-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--white-background-color);
-  border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--ocean-pressed-state-color);
-}
-
-/* FEATURES */
-.features {
-  padding: 120px 0;
-}
-
-.features-icons-list {
-  display: flex;
-  gap: 24px;
-}
-
-.feature-icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  width: 264px;
-  border-radius: 4px;
-  background-color: var(--cloud-light-color);
-  margin-bottom: 8px;
-}
-
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-.feature-item {
-  width: 264px;
-}
-
-.feature-item-title {
-  margin-bottom: 8px;
-}
-
-/* WORK */
-.work {
-  padding-top: 0;
-}
-
-.work-list {
-  display: flex;
-  gap: 24px;
-  justify-content: space-between;
-}
-
-.work-item {
-  width: 360px;
-}
-
 /* TEAM */
 .team {
   padding: 120px 0;
@@ -666,6 +578,3 @@
 .modal-send-btn:focus {
   background-color: var(--ocean-pressed-state-color);
 }
-
-/* 
-MOBILE MENU */

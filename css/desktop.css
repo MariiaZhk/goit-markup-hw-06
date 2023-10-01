@@ -54,4 +54,37 @@
         url(../images/main-page/hero/hero_desk@2x.jpg);
     }
   }
+
+  .hero-title {
+    margin: 0 auto 48px;
+  }
+
+  .features-icons-list {
+    display: flex;
+  }
+
+  .features-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .feature-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .feature-item-title {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .feature-item-text {
+    font-weight: 400;
+  }
+
+  .work {
+    display: block;
+    padding-top: 0;
+  }
 }
