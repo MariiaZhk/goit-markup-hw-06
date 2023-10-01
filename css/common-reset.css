@@ -15,7 +15,12 @@
   --items: 3;
 }
 
-/* COMMON */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate-text-color);

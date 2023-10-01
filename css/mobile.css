@@ -1,7 +1,7 @@
 .container {
-  min-width: 100%px;
-  padding-left: 16px;
-  padding-right: 16px;
+  min-width: 320px;
+  max-width: 428px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -274,7 +274,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/main-page/hero.jpg);
+    url(../images/main-page/hero/hero_mob.jpg);
 }
 
 @media only screen and (min-width: 428px) {
@@ -290,16 +290,16 @@
   .mobile-socials {
     gap: 56px;
   }
-}
 
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero__bg-image {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url('../images/01-hero/hero-mobile-2x.jpg');
+  @media only screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/main-page/hero/hero_mob@2x.jpg);
+    }
   }
 }
