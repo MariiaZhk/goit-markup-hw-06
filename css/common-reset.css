@@ -1,0 +1,74 @@
+:root {
+  --white-background-color: #ffffff;
+  --slate-text-color: #434455;
+  --navy-blue-dark-color: #2e2f42;
+  --iris-primary-brand-color: #4d5ae5;
+  --cloud-light-color: #f4f4fd;
+  --cornflower-accent-color: #e7e9fc;
+  --ocean-pressed-state-color: #404bbf;
+  --light-slate-helper-text: #8e8f99;
+  --green-succes-color: #31d0aa;
+  --dairy-modal-background: #fcfcfc;
+
+  --indent-col: 24px;
+  --indent-row: 48px;
+  --items: 3;
+}
+
+/* COMMON */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate-text-color);
+  background-color: var(--white-background-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
