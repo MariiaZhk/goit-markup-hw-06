@@ -17,12 +17,11 @@
   }
 
   .hero-section {
-    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/main-page/hero/hero_tablet.jpg);
+      url(../images/main-page/hero/hero_desk.jpg);
   }
 
   @media only screen and (min-device-pixel-ratio: 2),
@@ -33,7 +32,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/main-page/hero/hero_tablet@2x.png);
+        url(../images/main-page/hero/hero_desk@2x.jpg);
     }
   }
 
@@ -74,7 +73,8 @@
   }
 
   .customers-list {
-    gap: 24px;
+    row-gap: 72px;
+    column-gap: 24px;
   }
 
   .customers-item {
