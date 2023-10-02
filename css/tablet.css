@@ -113,4 +113,8 @@
   .footer-form-input {
     width: 264px;
   }
+
+  .modal {
+    max-width: 408px;
+  }
 }
