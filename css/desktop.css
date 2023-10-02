@@ -93,12 +93,13 @@
     gap: 24px;
   }
 
+  .customers-wrapper {
+    width: 100%;
+  }
+
   .customers-list {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    gap: 24px;
   }
 
   .customers-item {
@@ -112,12 +113,16 @@
 
   .footer-container {
     align-items: baseline;
+    width: 100%;
   }
 
   .footer-logo-wrapper {
-  display: inline-block;
-  margin-right: 120px;
-}
+    display: inline-block;
+    margin-right: 120px;
   }
-  
+
+  .footer-form-wrapper {
+    margin-top: 0;
+    margin-left: 80px;
+  }
 }

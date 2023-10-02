@@ -72,6 +72,15 @@
     row-gap: 64px;
   }
 
+  .customers-wrapper {
+    width: 552px;
+    margin: 0 auto;
+  }
+
+  .customers-list {
+    gap: 24px;
+  }
+
   .customers-item {
     width: calc((100% - 48px) / 3);
   }
@@ -79,6 +88,29 @@
   .footer-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
     text-align: start;
+    width: 552px;
+  }
+
+  .footer-logo-wrapper {
+    width: 264px;
+    margin: 0 24px 0 0;
+  }
+  .footer-socials-wrapper {
+    margin-top: 0;
+  }
+
+  .footer-socials-list {
+    justify-content: start;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-form-input {
+    width: 264px;
   }
 }
