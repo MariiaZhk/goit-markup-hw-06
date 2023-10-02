@@ -324,6 +324,7 @@
 .customers-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 72px;
   gap: 16px;
@@ -440,15 +441,15 @@
   display: inline-block;
   margin-top: 72px;
 }
+.footer-form-label {
+  width: 100%;
+}
 
 .footer-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 16px;
-}
-
-.footer-form-label {
-  display: block;
 }
 
 .footer-form-input {
@@ -475,7 +476,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   padding: 8px 24px;
   font-family: 'Roboto', sans-serif;
@@ -520,7 +521,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 320px;
+  width: calc(100% - 20px);
   transform: translateX(-50%) translateY(-50%);
   height: 584px;
   padding: 72px 24px 24px;
@@ -568,7 +569,6 @@
 
 .modal-title {
   display: block;
-  width: 360px;
   margin-bottom: 16px;
   color: var(--navy-blue-dark-color);
   text-align: center;
@@ -879,8 +879,9 @@
     font-weight: 700;
   }
 
-  .mobile-socials {
+  .mobile-socials-list {
     gap: 56px;
+    justify-content: flex-start;
   }
 
   .modal {
