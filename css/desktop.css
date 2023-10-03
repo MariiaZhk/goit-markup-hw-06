@@ -153,4 +153,9 @@
     width: 360px;
     height: 300px;
   }
+
+  .project-item-link:hover .project-overlay-text,
+  .project-item-link:hover .project-overlay-text {
+    transform: translateY(0);
+  }
 }
