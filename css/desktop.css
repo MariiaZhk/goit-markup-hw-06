@@ -125,4 +125,32 @@
     margin-top: 0;
     margin-left: 80px;
   }
+
+  /* PORTFOLIO */
+
+  .portfolio {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-btn-list {
+    margin-bottom: 72px;
+  }
+
+  .projects-list {
+    row-gap: 72px;
+  }
+
+  .project-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .project-overlay {
+    width: 360px;
+  }
+
+  .project-item-img {
+    width: 360px;
+    height: 300px;
+  }
 }
